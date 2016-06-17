@@ -1,0 +1,46 @@
+{
+    "name": "spatie/laravel-feed",
+    "description": "Generates rss feed",
+    "keywords": [
+        "spatie",
+        "laravel-feed"
+    ],
+    "homepage": "https://github.com/spatie/laravel-feed",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jolita Grazyte",
+            "email": "jolita@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "illuminate/support": "^5.1",
+        "nesbot/carbon": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "orchestra/testbench":"^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\Feed\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spatie\\Feed\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
