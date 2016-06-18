@@ -20,7 +20,7 @@
             </author>
             @if(!empty($item->getFeedItemCategory()))
                 @foreach($item->getFeedItemCategory() as $category)
-                    <category>{{ $category }}</category>
+                    <category>{{ str_slug($category) }}</category>
                 @endforeach
 
             @endif

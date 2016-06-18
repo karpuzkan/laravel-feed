@@ -9,7 +9,7 @@
 
 This package provides an easy way to generate [rss feeds](http://www.whatisrss.com/). There's almost no coding required on your part.
 Just follow the installation instructions and provide some good values for the config file and you're
-good to go.
+good to go. In this repository category added.
 
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
